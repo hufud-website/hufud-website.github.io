@@ -1,0 +1,166 @@
+  body {
+
+  }
+
+  h1 {
+    letter-spacing: 0.2em;
+    font-size: 250%;
+    margin-bottom: 15%;
+  }
+
+  h2 {
+    color: #00CC99;
+    text-align: center;
+    letter-spacing: 0.3em;
+  }
+
+  p {
+    line-height: 1em;
+    margin-bottom: 2em;
+  }
+
+  .contact-links {
+    color:#FFFFFF;
+  }
+
+  .contact-links:hover, .contact-links:active, .contact-links:focus {
+    color: #FFFFFF;
+    text-transform: lowercase;
+  }
+
+  .jumbotron {
+    color:#FFFFFF;
+    text-align:center;
+    background-image: url("http://www.mediafire.com/convkey/f339/ewoj0p75tk7wx2f6g.jpg");
+    background-size: cover;
+  }
+
+  .jumbotron p {
+    letter-spacing: 0.2em;
+  }
+
+  .btn {
+    background: #00CC99;
+    border: none;
+}
+  
+  .banner p {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: justify;
+    text-justify: auto;
+  }
+
+  .col-md-5 img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #menulink {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  #menulink a {
+    color: #00CC99;
+    font-size: 1em;
+    text-transform: uppercase;
+    /* [disabled]display: block;
+  */
+    font-weight: 200;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+  }
+  #navlinks {
+    width: 30%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.3em;
+    text-align: center;
+    background-color: #000000;
+    background-color: rgba(0,204,204,0.6);
+    position: absolute;
+    -webkit-transition: all ease-out 0.5s;
+    transition: all ease-out 0.5s;
+  }
+  #navlinks.displayed {
+      top: 0px;
+      z-index: 1;
+      opacity: 1;
+  }
+  #navlinks.start {
+      display: none;
+  }
+  #navlinks.collapsed {
+      top: -12em;
+      opacity: 0;
+  }
+
+  #navlinks a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  #navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+    color: #FFFFFF;
+    text-transform: lowercase;
+  }
+
+  #navlinks a.thispage {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .publishing-content {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  figcaption {
+    font-style: italic;
+    text-align: center;
+
+  }
+
+  .publishing-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .tumblr_title {
+    font-size: 130%;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+    margin-bottom: 10%;
+  }
+
+  .tumblr_text_post {
+    margin-bottom: 10%;
+  }
+
+  .footer {
+    margin-top: 50px;
+    bottom: 0;
+    /*width: 100%;*/
+    height: auto;
+    background-color: #00cccc;
+    color: #FFFFFF;
+  }
+
+  .footer p {
+    margin-top: 4%;
+    text-align: center;
+    letter-spacing: 0.5em;
+
+  }
+
