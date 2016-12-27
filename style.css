@@ -153,14 +153,20 @@
     padding: 0;
   }
 
-  .tumblr_title {
+  .tumblr-title {
     font-size: 130%;
     letter-spacing: 0.5em;
     text-decoration: underline;
+    margin-bottom: 5%;
+  }
+
+  .tumblr-date {
+    font-style: italic;
+    font-size: 80%;
     margin-bottom: 10%;
   }
 
-  .tumblr_text_post {
+  .tumblr-text-post {
     margin-bottom: 10%;
   }
 

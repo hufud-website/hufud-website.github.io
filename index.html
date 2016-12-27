@@ -91,11 +91,12 @@ function tumblr(resp) {
     console.log(p)
     var title = p['title'] || p['post_url'] || null;
     if (title) {
-      $ul.append('<li class="tumblr_post tumblr_text_post">' + 
-        '<div class="tumblr_title">'+p['title']+
-        '</div> <div class="tumblr_body">'+p['body']+
+      $ul.append('<li class="tumblr-post tumblr-text-post">' + 
+        '<div class="tumblr-title">'+p['title']+
+        '</div> <div class="tumblr-date">'+p['date']+'</div>'+
+        '<div class="tumblr-body">'+p['body']+
         '<p class="read_more_container">' +
-        '<a href="'+p['post_url']+'" class="read_more"> Read More </a>' +
+        '<a href="'+p['post_url']+'" class="read-more"> Read More </a>' +
         '</p> </div> </li>'
       );
     }
