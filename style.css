@@ -19,11 +19,27 @@
     margin-bottom: 2em;
   }
 
-  .contact-links {
-    color:#FFFFFF;
+  .footer {
+    margin-top: 50px;
+    bottom: 0;
+    /*width: 100%;*/
+    height: auto;
+    background-color: #00cccc;
+    color: #FFFFFF;
   }
 
-  .contact-links:hover, .contact-links:active, .contact-links:focus {
+  .footer p {
+    margin-top: 4%;
+    text-align: center;
+    letter-spacing: 0.5em;
+
+  }
+
+  .footer a {
+    color: #FFFFFF;
+  }
+
+  .footer a:hover, .footer a:active, .footer a:focus {
     color: #FFFFFF;
     text-transform: lowercase;
   }
@@ -148,19 +164,20 @@
     margin-bottom: 10%;
   }
 
-  .footer {
-    margin-top: 50px;
-    bottom: 0;
-    /*width: 100%;*/
-    height: auto;
-    background-color: #00cccc;
-    color: #FFFFFF;
-  }
-
-  .footer p {
+  .contact-form a {
+    color: #666666;
     margin-top: 4%;
-    text-align: center;
     letter-spacing: 0.5em;
 
+  }
+
+  .contact-form a:hover, .contact-form a:active, .contact-form a:focus {
+    color: #666666;
+    text-transform: lowercase;
+  }
+
+  p.contact-form {
+    text-align: center;
+    padding-top: 5%;
   }
 
