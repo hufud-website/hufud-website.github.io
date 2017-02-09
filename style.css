@@ -57,6 +57,11 @@
     text-transform: lowercase;
   }
 
+  #copyright {
+    font-size: 50%;
+    color: #666666;
+  }
+
    /* MENU */
 
   #menulink {
