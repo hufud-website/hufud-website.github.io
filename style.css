@@ -2,6 +2,8 @@
     letter-spacing: 0.2em;
     font-size: 250%;
     margin-bottom: 15%;
+    color: #fff;
+    text-shadow: #000 0px 0px 3px;
   }
 
   h2 {
@@ -11,6 +13,7 @@
   }
 
   p {
+    font-size: 120%;
     line-height: 1em;
     margin-bottom: 2em;
   }
@@ -58,7 +61,7 @@
   }
 
   #copyright {
-    font-size: 50%;
+    font-size: 75%;
     color: #666666;
   }
 
@@ -142,6 +145,7 @@
 
   .jumbotron p {
     letter-spacing: 0.2em;
+    text-shadow: #000 0px 0px 3px;
   }
 
   .btn {
