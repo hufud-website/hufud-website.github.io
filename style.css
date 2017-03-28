@@ -12,7 +12,7 @@
     letter-spacing: 0.3em;
   }
 
-  p {
+  p, td {
     font-size: 120%;
     line-height: 1em;
     margin-bottom: 2em;
@@ -87,7 +87,7 @@
 
   /* CONTENT */
 
-  .col-md-4 img {
+  .col-md-3 img {
     width: 80%;
     display: block;
     margin-left: auto;
@@ -110,6 +110,18 @@
     list-style-type: none;
     padding: 0;
   }
+
+  .col-md-4 table {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .col-md-4 td {
+    vertical-align: top;
+  }
+
+  /* BLOG */
 
   .tumblr-title {
     font-size: 130%;
@@ -141,12 +153,7 @@
   /* DONATIONS */
 
   input {
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
   }
-
-  .donation p {
-    text-align: center;
-    margin-top: 3em;
-  }
- 
-
