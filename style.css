@@ -87,11 +87,12 @@
 
   /* CONTENT */
 
-  .col-md-3 img {
+  .col-md-5 img {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
   }
 
   .publishing-content {
@@ -111,13 +112,18 @@
     padding: 0;
   }
 
-  .col-md-4 table {
+  #Eventbrite {
+    padding-left:10%;
+    padding-right: 10%;
+  }
+
+  .col-md-6 table {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
   }
 
-  .col-md-4 td {
+  .col-md-6 td {
     vertical-align: top;
   }
 
