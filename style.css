@@ -101,6 +101,10 @@
     padding-right: 5%;
   }
 
+  .publishing-content img {
+    width: 20em;
+  }
+
   figcaption {
     font-style: italic;
     text-align: center;
