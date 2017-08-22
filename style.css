@@ -13,7 +13,7 @@
   }
 
   p, td, ul {
-    font-size: 120%;
+    font-size: 1.3em;
     line-height: 1em;
     margin-bottom: 2em;
   }
@@ -135,7 +135,7 @@
   /* BLOG */
 
   .tumblr-title {
-    font-size: 130%;
+    font-size: 120%;
     letter-spacing: 0.5em;
     text-decoration: underline;
     margin-bottom: 5%;
@@ -144,10 +144,11 @@
   .tumblr-date {
     font-style: italic;
     font-size: 80%;
-    margin-bottom: 10 %;
+    margin-bottom: 10%;
   }
 
   .tumblr-text-post {
+    font-size: 80%;
     margin-bottom: 10%;
   }
 
