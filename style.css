@@ -118,17 +118,18 @@
 
   #Eventbrite {
     padding-left:10%;
-    padding-right: 10%;
+    padding-right:10%;
   }
 
-  .col-md-6 table {
+  table {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
   }
 
-  .col-md-6 td {
+  td {
     vertical-align: top;
+    padding-bottom: 0.7em;
   }
 
   /* BLOG */
