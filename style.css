@@ -180,3 +180,13 @@
     padding-bottom: 5%;
     padding-left: 5%;
   }
+
+  /* MAILCHIMP FORM */
+
+  #mc_embed_signup {
+    padding-left: 5%;
+  }
+
+  .mc-field-group {
+    padding-top: 1em;
+  }
