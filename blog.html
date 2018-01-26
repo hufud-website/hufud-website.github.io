@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<title>HUFUD - Blog</title>
+
+  	<link rel="shortcut icon" href="https://www.mediafire.com/convkey/3984/ty56zp33bpnkc076g.jpg"/>
+
+  	<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'>
+
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  	<link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+	<div class="neogreen"></div>
+  	<div class="container-fluid" id="wrap">
+
+		<div class="row" id="publishing">
+			<div class="col-md-1"></div>
+			<div class="col-md-7" id="blog">
+				<h2>HUFUD Blog</h2>
+
+				<div id="blog" class="publishing-content">
+          			<span class="loading">Loading...</span>
+          		</div>
+
+        	</div>
+			<div class="col-md-3">
+				<h2 id="supportus">Support Us</h2>
+        		<div id="form">
+        			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            			<input type="hidden" name="cmd" value="_s-xclick">
+            			<input type="hidden" name="hosted_button_id" value="9M9PAR4JMXJB6">
+            			<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+            			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+        			</form>
+        		</div>
+        
+        		<p class="publishing-content">Your donation will help us run workshops, lectures, rallies and outreach activities&#8212;disseminating our ideology to the world, in many languages&#8212;to promote <b>PEACE</b>, through <b>EDUCATION</b>, <b>COMMUNITY BUILDING</b>, and <b>COOPERATING</b> with other human rights organisations and individuals.</p>
+ 
+				<!--footer-->
+        		<p id="copyright">2017 (c) Humanity United for Universal Demilitarisation (HUFUD)</p>
+        		<hr />
+
+        		<div id="logo">
+          			<img src="http://www.mediafire.com/convkey/5c80/27k9aitg5mx35xn6g.jpg"/ alt="HUFUD icon">
+        		</div>
+
+        		<div class="break"></div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    	<ul class="nav navbar-nav">
+      		<li><a href="/index.html">Home</a></li>
+          	<li><a href="/about.html">About</a></li>
+          	<li><a href="/events.html">Events</a></li>
+      		<li><a href="/get-involved.html">Get Involved</a></li>
+          	<li><a href="/gallery.html">Photo Gallery</a></li>
+          	<li><a href="#blog">Back to Top</a></li>
+    	</ul>
+	</nav>
+
+<!--tumblr-->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+function tumblr(resp) {
+  var posts = resp.response.posts;
+  console.log(posts)
+  $('#blog .loading').replaceWith('<ul/>');
+  $ul = $('#blog ul');
+  //$ul.class='tumblr_posts'
+  for (var i=0; i<posts.length; i++) {
+    var p = posts[i];
+    console.log(p)
+    var title = p['title'] || p['post_url'] || null;
+    if (title) {
+      $ul.append('<li class="tumblr-post tumblr-text-post">' + 
+        '<div class="tumblr-title">'+p['title']+
+        '</div> <div class="tumblr-date">'+p['date']+'</div>'+
+        '<div class="tumblr-body">'+p['body']+
+        '<p class="read_more_container">' +
+        '<a href="'+p['post_url']+'" class="read-more"> Other posts by HUFUD </a>' +
+        '</p> </div> </li>'
+      );
+    }
+  }
+}
+</script>
+
+<script src="https://api.tumblr.com/v2/blog/hufudblog/posts/text?api_key=fha9thq5B1OoLStwDFzOprefyeQYdgDXUN3FyQVFdfvOkHPOqz&callback=tumblr&amp;num=10" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,16 +1,21 @@
   h1 {
+    color: #800000;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    line-height: 1.5em;
     letter-spacing: 0.2em;
-    font-size: 250%;
-    margin: 3%;
-    color: #00CC99;
-    text-align: left;
-    font-weight: bold;
+    border-top: 5px solid #800000;
+    border-bottom: 5px solid #800000;
   }
 
   h2 {
     color: #00CC99;
+    padding-bottom: 5%;
     text-align: center;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
   }
 
   p, td, ul {
@@ -22,93 +27,65 @@
   hr {
     width: 80%;
     height: 0.2em;
-    background: #333333;
+    background: #800000;
   }
 
   #wrap {
     min-height: 100%;
     height: auto;
-    margin: 0 auto -250px;
+    /*margin: 0 auto -250px;*/
   }
 
   .row {
     margin-bottom: 5em;
   }
 
-  /* FOOTER */
-
-  .footer {
-    margin-top: 100px;
-    height: 250px;
-    padding-top: 5%;
-    background-color: #FFFFFF;
-  }
-
-  .footer div.col-md-12 p { 
-    text-align: center;
-    letter-spacing: 0.3em;
-  }
-
-  .footer div.col-md-12 img {
-    width: 325px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   #copyright {
     font-size: 60%;
     color: #666666;
-  }
-
-  /* JUMBOTRON
-
-  .jumbotron {
-    color: #000000;
     text-align: center;
-    background-image: url("https://www.mediafire.com/convkey/71aa/oyjv82two2k7jx56g.jpg");
-    background-size: cover;
   }
 
-  .jumbotron p {
+  #logo {
+    text-align: center;
+  }
+
+  #logo img {
+    width: 50%;
+  }
+
+  /* NAV */
+
+  nav.navbar.navbar-inverse.navbar-fixed-bottom {
+    background-color: #00CC99;
+    border-width: 0px;
+    border-radius: 0px;
+    padding-left: 5%;
+  }
+
+  nav.navbar.navbar-inverse.navbar-fixed-bottom a {
+    color: #FFFFFF;
+    font-size: 0.7em;
     font-weight: bolder;
-    margin-bottom: 17em;
-  } */
+    letter-spacing: 0.5em;
+  }
 
   .neogreen {
-  padding-bottom: 1em;
-  background-color:#00CC99!important;
-  }
-
-  /* MENU */
-
-  .menu {
-    background-color: #00CC99;
-    list-style-type: none;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    margin: 1em;
-  }
-
-  .menu a, .menu li a:hover {
-    color: #FFFFFF;
-    font-size: 1.3em;
-    letter-spacing: 0.2em;
-  }
-
-  .menu li {
-    margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  background-color: #00CC99!important;
   }
 
   /* CONTENT */
 
-  .col-md-5 img, .col-md-4 img {
-    width: 80%;
+  /*
+  .col-md-5 img, .col-md-4 img, .col-md-3 img{
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
   }
+  */
 
   .publishing-content {
     padding-top: 5%;
@@ -120,11 +97,15 @@
     width: 20em;
   }
 
+  #video {
+    text-align: center;
+  }
+
   figcaption {
     font-style: italic;
     text-align: center;
-    margin-left:3em;
-    margin-right:3em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .publishing-content ul {
@@ -141,6 +122,15 @@
   td {
     vertical-align: top;
     padding-bottom: 0.7em;
+  }
+
+  #td-center {
+    text-align: center;
+    padding: 2em;
+  }
+
+  .break {
+    padding: 10%;
   }
 
   /* BLOG */
@@ -163,6 +153,12 @@
     margin-bottom: 10%;
   }
 
+  /* FB */
+  #facebook {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
   /* HOVER elements */
 
   a {
@@ -178,12 +174,16 @@
     text-transform: lowercase;
   }
 
+  #contact {
+    text-align: center;
+  }
+
   /* DONATIONS */
 
   #form {
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 5%;
+    text-align: center;
   }
 
   /* MAILCHIMP FORM */
@@ -194,4 +194,10 @@
 
   .mc-field-group {
     padding-top: 1em;
+  }
+
+  #mailchimp {
+    background-color: #f0f3f5;
+    border-radius: 0.3em;
+    padding-top: 2%;
   }
