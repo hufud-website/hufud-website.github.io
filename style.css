@@ -65,9 +65,9 @@
 
   nav.navbar.navbar-inverse.navbar-fixed-bottom a {
     color: #FFFFFF;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bolder;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
   }
 
   .neogreen {
