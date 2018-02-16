@@ -1,5 +1,23 @@
+  /* BODY */
+
+  #wrap {
+    min-height: 100%;
+    height: auto;
+  }
+
+  .neogreen {
+  padding-bottom: 0.5em;
+  background-color: #00CC99!important;
+  }
+
+  .row {
+    margin-bottom: 5em;
+  }
+
+  /* FONT */
+
   h1 {
-    color: #800000;
+    color: #00CC99;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -7,8 +25,12 @@
     font-weight: bolder;
     line-height: 1.5em;
     letter-spacing: 0.2em;
-    border-top: 5px solid #800000;
-    border-bottom: 5px solid #800000;
+    border-top: 5px solid #909090;
+    border-bottom: 5px solid #909090;
+  }
+
+  #psd {
+    text-align: center;
   }
 
   h2 {
@@ -18,10 +40,34 @@
     letter-spacing: 0.2em;
   }
 
+  h3 {
+    color: #999999;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+
+  #date-venue{
+    color: #393939;
+  }
+
   p, td, ul {
     font-size: 1.3em;
-    line-height: 1em;
+    line-height: 1.5em;
     margin-bottom: 2em;
+  }
+
+  /* SPACING */
+
+  .publishing-content {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+  .break {
+    padding: 10%;
   }
 
   hr {
@@ -30,15 +76,7 @@
     background: #800000;
   }
 
-  #wrap {
-    min-height: 100%;
-    height: auto;
-    /*margin: 0 auto -250px;*/
-  }
-
-  .row {
-    margin-bottom: 5em;
-  }
+  /* CONTACT */
 
   #copyright {
     font-size: 60%;
@@ -70,14 +108,8 @@
     letter-spacing: 0.3em;
   }
 
-  .neogreen {
-  padding-bottom: 0.5em;
-  background-color: #00CC99!important;
-  }
+  /* IMG */
 
-  /* CONTENT */
-
-  /*
   .col-md-5 img {
     width: 100%;
     display: block;
@@ -85,17 +117,13 @@
     margin-right: auto;
     padding-top: 5%;
   }
-  */
-
-  .publishing-content {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
   .publishing-content img {
     padding-top: 5%;
-    width: 20em;
+    width: 15em;
+  }
+
+  #poster {
+    text-align: center;
   }
 
   #video {
@@ -109,10 +137,14 @@
     margin-right: 1em;
   }
 
+  /* LIST */
+
   .publishing-content ul {
     list-style-type: none;
     padding: 0;
   }
+
+  /* TABLE */
 
   table {
     margin-bottom: 5%;
@@ -126,10 +158,6 @@
   #td-center {
     text-align: center;
     padding: 2em;
-  }
-
-  .break {
-    padding: 10%;
   }
 
   /* BLOG */
