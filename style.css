@@ -117,13 +117,18 @@
     margin-right: auto;
     padding-top: 5%;
   }
+
   .publishing-content img {
     padding-top: 5%;
-    width: 15em;
+    width: 20em;
   }
 
-  #poster {
+  #poster, #poster-thumbnail {
     text-align: center;
+  }
+
+  #poster img{
+    width: 30em;
   }
 
   #video {
@@ -148,6 +153,7 @@
 
   table {
     margin-bottom: 5%;
+    margin-left: 5%;
   }
 
   td {
@@ -192,15 +198,11 @@
     color: #00cc99;
   }
 
-  .footer a {
-    color: #425e70;
-  }
-
-  .footer a:hover, .footer a:active, .footer a:focus, ul a:hover, ul a:active, ul a:focus {
-    color: #425e70;
+  a:hover, a:active, a:focus {
+    color: #00cc99;
     text-transform: lowercase;
   }
-
+  
   #contact {
     text-align: center;
   }
