@@ -161,6 +161,7 @@
   figcaption {
     font-style: italic;
     text-align: center;
+    padding-bottom: 5%;
     margin-left: 1em;
     margin-right: 1em;
   }
@@ -174,20 +175,12 @@
   /* TABLE */
 
   table {
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin: 5%;
   }
 
   td {
     vertical-align: top;
-    padding-right: 1em;
     padding-bottom: 1.3em;
-  }
-
-  #td-center {
-    text-align: center;
-    padding: 2em;
   }
 
   /* BLOG */
