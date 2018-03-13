@@ -125,6 +125,10 @@
     height: auto;
   }
 
+  .img-300 {
+    width: 300px;
+  }
+
   .video {
     position: relative;
     padding-bottom: 50%;
@@ -139,7 +143,7 @@
   }
 
   /* centers img */
-  .col-md-2 img, .col-md-4 img, .col-md-5 img {
+  .col-md-2 img, .col-md-4 img, .col-md-5 img, .col-md-6 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
