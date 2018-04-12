@@ -151,17 +151,21 @@
   }
 
   /* centers img */
-  .col-md-2 img, .col-md-4 img, .col-md-5 img, .col-md-6 img {
+  .col-md-2 img, .col-md-4 img, .col-md-5 img, .col-md-6 img, a img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
-  .img-circle {
+  #thumbnail{
     width: 250px;
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  .img-circle {
+    
   }
 
   #poster img{
